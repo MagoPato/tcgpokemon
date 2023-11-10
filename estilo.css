@@ -250,7 +250,7 @@ header {
 
     .carrito {
         width: 80%;
-        max-height: calc(100vh - 388px);
+        max-height: calc(100vh - 58%);
         right: 0;
         overflow-y: auto;
     }
