@@ -250,8 +250,13 @@ header {
 
     .carrito {
         width: 80%;
+        max-height: calc(100vh - 388px);
+        right: 0;
+        overflow-y: auto;
     }
+    
 }
+
 
 .mi-clase-container {
     background-color: #007bff; /* Fondo del contenedor principal */

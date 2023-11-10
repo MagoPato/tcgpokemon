@@ -1,12 +1,12 @@
 var carritoVisible = false;
 
 function guardarCarritoEnLocalStorage(carrito) {
-  localStorage.setItem('carrito', JSON.stringify(carrito));
+  localStorage.setItem("carrito", JSON.stringify(carrito));
 }
 
 // Cargar el carrito desde el almacenamiento local
 function cargarCarritoDesdeLocalStorage() {
-  const carritoJSON = localStorage.getItem('carrito');
+  const carritoJSON = localStorage.getItem("carrito");
   if (carritoJSON) {
     return JSON.parse(carritoJSON);
   }
@@ -67,7 +67,6 @@ async function generarCartasPokemon() {
       </div>
     `;
   });
-
   // Inserta el HTML generado dentro del contenedor "contenedor-items"
   document.querySelector(".contenedor-items").innerHTML = html;
 
@@ -119,7 +118,6 @@ function ready() {
   document
     .getElementsByClassName("btn-pagar")[0]
     .addEventListener("click", pagarClicked);
-
 }
 //Eliminamos todos los elementos del carrito y lo ocultamos
 function pagarClicked() {
@@ -182,7 +180,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc) {
       Swal.fire({
         title: "El item ya se encuentra en el carrito",
         timer: 1500, // 3000 milisegundos (3 segundos)
-        showConfirmButton: false
+        showConfirmButton: false,
       });
       return;
     }
@@ -343,7 +341,3 @@ function getGradient(colores) {
 
   return newGradient;
 }
-
-
-
-
