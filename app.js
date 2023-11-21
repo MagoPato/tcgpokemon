@@ -59,7 +59,7 @@ async function generarCartasPokemon() {
     const gradiente = getGradient(colores);
 
     html += `
-      <div class="item" style="background: ${gradiente}">
+      <div class="item" >
           <span class="titulo-item">${nombre}</span>
           <img src="${carta.imagen}" alt="" class="img-item">
           <span class="precio-item">$${carta.precio}</span>

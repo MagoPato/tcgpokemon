@@ -12,13 +12,13 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #48cbff;
+    background-color: #EA5431;
     border-radius: 5px;
   }
   
   /* Barra de scroll activa */
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #48cbff;
+    background-color: #EA5431;
   }
   
   /* Barra de scroll inactiva */
@@ -28,20 +28,49 @@
   
   /* Barra de scroll inactiva activa */
   ::-webkit-scrollbar-track:hover {
-    background-color: #ccc;
+    background-color: #f3a07e;
   }
 
 body {
+    background-image: url("https://c.wallhere.com/photos/c1/c4/Pok_mon_tile_cartoon_pattern-1558661.jpg!d");
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
     color: #333;
 }
 
 header {
-    background-color: #232f3e;
+    background-color: #EA5431;
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between; /* Coloca el botón "Agregar" al lado del título */
+    align-items: center;
+}
+
+.btn-agregar {
+    background-color: #ed6f4a; /* Cambia el color de fondo del botón Agregar */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+}
+.btn-agregar:hover{
+    background-color:#b52419;
 }
 
 .contenedor {
@@ -63,7 +92,7 @@ header {
     margin: 10px;
     text-align: center;
     padding: 15px;
-    background-color: #fff;
+    background-color: #fef3ee;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -91,12 +120,12 @@ header {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #007bff;
+    color: #EA5431;
     margin-top: 10px;
 }
 
 .boton-item {
-    background-color: #007bff;
+    background-color: #EA5431;
     color: white;
     border: none;
     padding: 8px;
@@ -107,12 +136,12 @@ header {
 }
 
 .boton-item:hover {
-    background-color: #0056b3;
+    background-color: #b52419;
 }
 
 .carrito {
     width: 25%;
-    background-color: #fff;
+    background-color: #fef3ee;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -168,7 +197,7 @@ header {
     cursor: pointer;
     font-size: 16px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #EA5431;
     border: none;
     border-radius: 3px;
     padding: 5px;
@@ -178,14 +207,14 @@ header {
 
 .fa-minus:hover,
 .fa-plus:hover {
-    background-color: #0056b3;
+    background-color: #b52419;
 }
 
 .carrito-item-cantidad {
     width: 30px;
     text-align: center;
     margin: 0 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #EA5431;
     border-radius: 3px;
     font-size: 14px;
     font-weight: bold;
@@ -194,11 +223,11 @@ header {
 .carrito-item-precio {
     font-size: 16px;
     font-weight: bold;
-    color: #007bff;
+    color: #EA5431;
 }
 
 .btn-eliminar {
-    background-color: #007bff;
+    background-color: #EA5431;
     color: white;
     border: none;
     padding: 8px;
@@ -208,7 +237,7 @@ header {
 }
 
 .btn-eliminar:hover {
-    background-color: #bd2130;
+    background-color: #b52419;
 }
 
 .carrito-total {
@@ -218,11 +247,11 @@ header {
 .carrito-precio-total {
     font-size: 18px;
     font-weight: bold;
-    color: #007bff;
+    color: #EA5431;
 }
 
 .btn-pagar {
-    background-color: #007bff;
+    background-color: #EA5431;
     color: white;
     border: none;
     padding: 10px;
@@ -234,7 +263,7 @@ header {
 }
 
 .btn-pagar:hover {
-    background-color: #0056b3;
+    background-color: #b52419;
 }
 
 /* Responsive */
@@ -259,8 +288,8 @@ header {
 
 
 .mi-clase-container {
-    background-color: #007bff; /* Fondo del contenedor principal */
-    color: #007bff; /* Color del texto del contenedor principal */
+    background-color: #EA5431; /* Fondo del contenedor principal */
+    color: #b52419; /* Color del texto del contenedor principal */
     border-radius: 5px; /* Bordes redondeados */
 }
 
